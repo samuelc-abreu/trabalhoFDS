@@ -13,13 +13,14 @@ header{
     width: 100vw;
 }
 nav {
-    background-color: #8c9dc8b4;
+    background-color: #8c9dc843;
     position: fixed;
     width: 100%;
     font-size: 20px;
     display: flex;
     justify-content: center;
     gap: 50px;
+    backdrop-filter: blur(8px) ;
 }
 nav a{
     padding: 15px;
@@ -28,7 +29,8 @@ nav a{
 }
 
 nav a:hover{
-    background-color: rgb(85, 133, 174)
+    background-color: rgba(85, 132, 174, 0.259)
+    
 }
 
 main{
@@ -52,6 +54,10 @@ section{
     font-size: 20px;
     text-align: justify;
 }
+#motivacional{
+    display: none;
+}
+
 #hobbies{
     padding-left: 5px;
     width: 100%;
